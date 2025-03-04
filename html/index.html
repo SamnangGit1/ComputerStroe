@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pka Rodoul - Computer Store</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logorodoul.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Oswald:wght@200..700&family=Playfair+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Squada+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c898bef91.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <div id="welcomeModal" class="modal">
+        <div class="modal-content">
+             <img src="../img/logorodoul.png">
+            <h2>Welcome to Pka Rodoul Computer Store</h2>
+             <br>
+             <br>
+            <button class="close-btn" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    <header class="Bar">
+        <div class="logo">
+    
+            <img src="../img/logorodoul.png" style="border: 1px solid #4066bf; border-radius:50%; width: 50px; height: 50px; float: left;">
+        </div>
+        <ul id="navigation">
+            <li><a href="#homeSection">Home</a></li>
+            <li><a href="#Managersection">About</a></li>
+            <li><a href="#menuSection">Model </a></li>
+            <div class="dropdown">
+                <li onclick="myFunction()" class="dropbtn">Product</li>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="ProductAsus.html">Asus Office</a>
+                  <a href="ProductAsusTuf.html">Asus Tuf Gaming</a>
+                  <a href="ProductAsusRog.html">Asus Rog Gaming</a>
+                </div>
+              </div>
+              <li><a href="#popularSection">Recommend</a></li>
+              <li><a href="#ServiceSection">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-bars" id="menuIcon" aria-hidden="true"></i>
+        </div>
+    </header>
+    
+    <div class="contain" id="homeSection">
+        <div class="left-contain">
+            <h1>Welcome to Pka Rodoul Computer </h1>
+            <p>At Pka Rodoul Computer  Store, we offer a wide range of services to meet all your computer maintenance needs. Whether it's hardware or software, our expert technicians are ready to help ensure your system is running smoothly.</p>
+            <a href="" class="explore" >Read More</a>
+        </div>
+        <div class="right-contain">
+            <img src="../img/logorodoul.png" alt="" style="margin-left: 20px; border-radius: 10px; ">
+        </div>
+    </div>
+    <section id="Managersection">
+        <h2>About Me</h2>
+        <div class="Manager">
+            <img src="../img/logorodoul.png" alt="">
+            <p>Tech Solutions Store is a computer and technical service hub established in 2024. We specialize in repairing computers, installing software, and providing expert IT support. Alongside services, we sell high-quality desktops, laptops, and accessories at competitive prices. Our mission is to deliver reliable tech solutions to businesses and individuals.
+    </p>
+        </div>
+    </section>
+    <section id="menuSection">
+        <h2 style="text-align: center;"> Our Computer </h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="../img/picAsus1.jpg" alt="">
+                <h4>Asus TUF F15 Gaming Laptop</h4>
+                <div class="btn"></div>
+            </div>
+            <div class="menu-item">
+                <img src="../img/picRog1.png" alt="">
+                <h4>ASUS ROG StrixG16 Laptop Gaming</h4>
+                <div class="btn"></div>
+            </div>
+            <div class="menu-item">
+                <img src="../img/picRog2.jpg" alt="">
+                <h4>ASUS ROG Zephyrus Duo 16 (Ryzen 9 7945HX) </h4>
+                <div class="btn"></div>
+            </div>
+            <div class="menu-item">
+                <img src="../img/picdk1.png" alt="">
+                <h4>TITAN LIQUID-COOLED RTX 4090 GAMING PC ROG</h4>
+                <div class="btn"></div>
+            </div>
+            <div class="menu-item">
+                <img src="../img/picmt1.png" alt="">
+                <h4>ROG Strix XG349C 34" UWQHD Gaming Monitor</h4>
+                <div class="btn"></div>
+            </div>
+            <div class="menu-item">
+                <img src="../img/picmb1.jpg" alt="">
+                <h4>Asus TUF Gaming B460M-Plus Wi-Fi Intel 10th Gen </h4>
+                <div class="btn"></div>
+            </div>
+            <div class="menu-item">
+                <img src="../img/picms1.png" alt="">
+                <h4>ROG Pugio | Mice & Mouse Pads </h4>
+                <div class="btn"></div>
+            </div>
+            <div class="menu-item">
+                <img src="../img/picheadset1.png" alt="">
+                <h4>Gaming Headsets & Audio｜ROG </h4>
+                <div class="btn"></div>
+            </div>
+           
+        </div>
+    </section>
+    <section id="popularSection">
+        <h2>The Best PC Recommend</h2>
+        <div class="popular-container">
+            <div class="Popular-pc">
+                <img src="../img/picAsus1.jpg" alt="">
+            </div>
+            <div class="Popular-pc">
+                <img src="../img/picRog1.png" alt="">
+            </div>
+            <div class="Popular-pc">
+                <img src="../img/picasusoff1.webp" alt="">
+            </div>
+        </div>
+    </section> 
+    <section id="ServiceSection">
+        <h2>Service PC</h2>
+        <div class="Service-container">
+            <div class="Service-pc">
+                <img src="../img/picservice1.jpg" alt="">
+         
+            </div>
+            <div class="Popular-pc">
+                <img src="../img/picservicesof1.avif" alt="">
+             
+            </div>
+            <div class="Popular-pc">
+                <img src="../img/picbuild1.jpg" alt="">
+               
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="Contact">
+        <h2 class="heading" style="text-align: center; margin-top:3rem ">Contact Me</h2>
+        <form action="" method="post">
+    <div class="input-box">
+        <input type="text" placeholder="Full Name" name="Fullname" required>
+        <input type="email" placeholder="Email Address" name="Email" required>
+    </div>
+    <div class="input-box">
+        <input type="text" placeholder="Phone Number" name="Phone" required>
+        <input type="text" placeholder="Email Subject" name="EmailSubject" required>
+    </div>
+    <textarea cols="30" rows="10" placeholder="Your Message" name="Message" required></textarea>
+    <a href="" class="explore1" >Read More</a>
+</form>
+
+    </section>
+ 
+    <section id="locationsection">
+        <h2>Location</h2>
+        <div class="location">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31057.669328642256!2d103.97197544574735!3d13.337292212142835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31103b1472bfbac7%3A0xf29b55135cdd9917!2sPlork%20Vannak%20Electricity!5e0!3m2!1sen!2skh!4v1732548772532!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+   </section>
+    <footer>
+     
+        <div class="foot">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis tempora maiores illum explicabo
+                laudantium distinctio quis inventore, dolor debitis, natus modi iure minima at aliquam!</p>
+        </div>
+     
+        <div class="foot">
+            <h3>Location</h3>
+            <ul>
+                <li><i class="fa-solid fa-map-pin" ></i>Angkrong village No.6</li>
+                <li>Kantreang Commune </li>
+                <li>Bakong District</li>
+                <li>Siem Reap Province</li>
+                
+            </ul>
+        </div>
+        <div class="foot">
+            <h3>Offers</h3>
+            <ul>
+                <li>20% Off</li>
+                <li>Black Friday Speacial price</li>
+                <li>Booking</li>
+                <li>Quality</li>
+            </ul>
+        </div>
+        <div class="foot">
+            <section id="Contact1">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fa-solid fa-phone"><b style="padding-left: 10px;">+855 81853628</b></i></li>
+                <li><i class="fa-brands fa-facebook"></i><a href="" style="padding-left: 10px;"> Pka Rodoul Computer</a></li>
+                <li><i class="fa-brands fa-telegram"><a href="" style="padding-left: 10px;"> Mr.Samnang</a></i></li>
+                <li>Open 7:30pm - 6:30 pm</li>
+             
+            </ul>
+        </section>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#homeSection"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer> 
+    <div class="copyright">
+        <i class="fa fa-copyright" aria-hidden="true"></i> Web Development Test 2024 - BBU
+    </div>
+    <script>
+        window.onload = function () {
+            document.getElementById('welcomeModal').style.display = 'flex';
+        };
+
+     
+        function closeModal() {
+            document.getElementById('welcomeModal').style.display = 'none';
+        }
+        const menuIcon = document.getElementById('menuIcon');
+        const navigation = document.getElementById('navigation');
+    
+        menuIcon.addEventListener('click', function() {
+            this.classList.toggle('active');
+            if (navigation.style.display === "block") {
+                navigation.style.display = "none"; 
+            } else {
+                navigation.style.display = "block"; 
+            }
+        });
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                navigation.style.display = ""; 
+                menuIcon.classList.remove('active'); 
+            }
+        });
+    
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+    </script>
+</body>
+</html>
